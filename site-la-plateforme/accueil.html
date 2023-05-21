@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laplateforme.css">
+    <title>Laplateforme</title>
+    <script>
+        function displayDate() {
+            document.getElementById("date").innerHTML = Date();
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="image/logo.png" alt="La Plateforme">
+            <ul>
+                <li><a href="accueil.html">accueil</a></li>
+                <li><a href="Qui sommes-nous.html">Qui sommes-nous ?</a></li>
+                <li><a href="aws-restart.html">Aws-restart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="plateforme.start.html">Plateforme.start</a></li>
+            </ul>
+        </nav>
+        <section class="container clearfix et menu_container">
+
+        </section>
+    </header>
+    <main>
+        <section class="title-header">
+            <h1>Bienvenue sur La Plateforme</h1>
+            <p> Ecole d'enseignement numérique </p>
+            <button onclick="displayDate()">Afficher la date</button>
+            <p id="date"></p>
+        </section>
+        <section class="header-information">
+            <p> <strong>La Plateforme <br></strong>
+                Des Formations avec frais de scolarité à zéro euros pour les stagiaires, ouverts à tous les talents,
+                sans conditions d'âge, de ressources ou de diplômes. <br>
+
+                Un lieu de rencontre entre entreprises et apprenants pour le bénéfice de tous !
+
+            </p>
+            <img src="image/HP_visual_light.jpg" alt="Photo">
+        </section>
+    </main>
+    <footer>
+        <Label>
+            <p>La Plateforme étblissement d'enseignement numérique privé</p>
+        </Label>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+header{
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    display: inline;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 23px;
+}
+nav img {max-width: 25%;}
+
+footer {background-color: seashell;}
+
+.header-information img {
+  max-width: 50%;
+}
+.header-information{
+   display: flex; 
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: cornflowerblue;
+
+}
+.header-information p{
+    margin-bottom:100px;
+    font-size: 1.5em;
+}
+nav{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 130, 222);   
+}
+.title-header{
+    text-align: center;
+    
+}
+body{font-family: 'Molengo', sans-serif;
+
+}
